@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2614ffa8-bdf3-45b9-9cc1-b0fdd8c7b4e2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.8.3.180:8002/HydroService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HydroService.xsd" MetadataType="Schema" ID="d5815c74-61ed-4172-97d6-93f7b997ff51" SourceId="1" SourceUrl="http://10.8.3.180:8002/HydroService.svc?xsd=xsd3" />
+    <MetadataFile FileName="HydroService1.xsd" MetadataType="Schema" ID="0689766c-b232-4e22-9285-b94aaa514d11" SourceId="1" SourceUrl="http://10.8.3.180:8002/HydroService.svc?xsd=xsd1" />
+    <MetadataFile FileName="HydroService.wsdl" MetadataType="Wsdl" ID="b70574f4-1831-4626-b612-696e5fa01350" SourceId="1" SourceUrl="http://10.8.3.180:8002/HydroService.svc?wsdl" />
+    <MetadataFile FileName="HydroService2.xsd" MetadataType="Schema" ID="cfbe48f9-b4d6-4a00-9f74-67bcb72cc41a" SourceId="1" SourceUrl="http://10.8.3.180:8002/HydroService.svc?xsd=xsd4" />
+    <MetadataFile FileName="HydroService3.xsd" MetadataType="Schema" ID="b429199d-b18b-4716-9a6e-f5d7268fe159" SourceId="1" SourceUrl="http://10.8.3.180:8002/HydroService.svc?xsd=xsd2" />
+    <MetadataFile FileName="HydroService4.xsd" MetadataType="Schema" ID="5488b4ac-a75c-4a13-b53b-ec70e75d1d72" SourceId="1" SourceUrl="http://10.8.3.180:8002/HydroService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
