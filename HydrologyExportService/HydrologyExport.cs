@@ -80,7 +80,7 @@ namespace HydrologyExportService
                             DateTime.DaysInMonth(DateTime.Now.AddMonths(-countPrevMonth).Year, DateTime.Now.AddMonths(-countPrevMonth).Month));
                         const int WATER_LEVEL = 2;
 
-                        string strFileName = strSiteFolder + "\\" + Site.SiteCode.ToString() + "_" + bgnDate.ToString("yyyy_MM") + ".asc";
+                        string strFileName = strSiteFolder + "\\" + Convert.ToInt32(Site.SiteCode).ToString(("00000")) + "_" + bgnDate.ToString("yyyy_MM") + ".asc";
 
                         if (File.Exists(strFileName))
                         {
